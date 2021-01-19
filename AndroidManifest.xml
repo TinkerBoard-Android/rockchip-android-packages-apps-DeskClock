@@ -103,6 +103,7 @@
 
         <activity
             android:name=".HandleApiCalls"
+            android:permission="com.android.alarm.permission.SET_ALARM"
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:taskAffinity=""
@@ -142,6 +143,7 @@
             android:excludeFromRecents="true"
             android:resizeableActivity="false"
             android:showOnLockScreen="true"
+	    android:showWhenLocked="true"
             android:taskAffinity=""
             android:windowSoftInputMode="stateAlwaysHidden" />
 
